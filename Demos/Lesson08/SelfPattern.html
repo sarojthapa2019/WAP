@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self Pattern</title>
+    <script>
+
+        var a = {
+            name: "",
+            log: function () {
+                this.name = "Hello";
+                console.log(this);
+                console.log("this.name: " + this.name);
+                var setFrench = function (newname) {
+                    console.log("set French...")
+                    console.log(this);
+                    this.name = newname;
+                };
+                setFrench("Bonjour");
+                console.log(this.name);
+            }
+        };
+        a.log();
+
+    </script>
+</head>
+<body>
+<h1>Open console to see the result.</h1>
+<pre>
+
+            var a = {
+            name: "",
+            log: function () {
+                this.name = "Hello";
+                console.log(this);
+                console.log("this.name: " + this.name);
+                var setFrench = function (newname) {
+                    console.log("set French...")
+                    console.log(this);
+                    this.name = newname;
+                };
+                setFrench("Bonjour");
+                console.log(this.name);
+            }
+        };
+        a.log();
+
+</pre>
+</body>
+</html>

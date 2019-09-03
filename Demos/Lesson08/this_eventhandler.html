@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this-event handler</title>
+    <script>
+
+        window.onload = function () {
+            document.getElementById("btn1").onclick = function () {
+                this.style.color = "red";
+            }
+        }
+
+    </script>
+</head>
+<body>
+<button id="btn1">
+    Click Me
+</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self Pattern</title>
+    <script>
+
+        const a = {
+            name: "",
+            log: function() {
+                this.name = "Hello";
+                console.log(this.name); //Hello
+                const setFrench = newname => this.name = newname;
+                setFrench("Bonjour");
+                console.log(this.name); //Bonjour
+            }
+        };
+
+        a.log();
+
+
+    </script>
+</head>
+<body>
+<h1>Open console to see the result.</h1>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Problems with reading/changing styles</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="style.js"></script>
+
+    <!--<script>
+        window.onload = function () {
+            document.getElementById("clickme").onclick = biggerFont;
+        };
+        function biggerFont() {
+            var size = parseInt(document.getElementById("clickme").style.fontSize);
+            size += 4; 
+            document.getElementById("clickme").style.fontSize = size + "pt";
+        }
+    </script>-->
+
+</head>
+
+<body>
+    <div id="div1" class="highlighted show">Do you want to see me?</div>
+    <button id="clickme" style="font-size: 10px;">Toggle Me</button>
+</body>
+
+</html>

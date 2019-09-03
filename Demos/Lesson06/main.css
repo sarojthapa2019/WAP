@@ -1,0 +1,12 @@
+.highlighted{
+    color: red;
+    background-color: yellow;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}

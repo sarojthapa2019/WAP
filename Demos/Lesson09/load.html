@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Load Demo</title>
+    <meta charset="utf-8" />
+    <!--3.1.0 doesn't support $(window).load()-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+
+        window.onload = function () {
+            console.log("window.onload...");
+        }
+
+        $(document).ready(function(){
+            console.log("jQuery document ready...");
+        });
+
+        $(function(){
+            console.log("jQuery document ready shorthand...");
+        });
+
+       
+        $(window).load(function(){
+            console.log("jQuery window.onload...");
+        });
+
+               
+    </script>
+</head>
+
+<body>
+    <h1>Different load event demo!</h1>
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/e9/73/dc/e973dc6c8870e7d0104bd63fd163112f.jpg" />
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/4d/5a/3f/4d5a3ffed0b01086c7dab8d382dc9043.jpg" />
+    <img src="http://tailandfur.com/wp-content/uploads/2016/10/40-Amazing-Poodle-Dog-Puppy-Pictures-3.jpg" />
+    <img src="http://tailandfur.com/wp-content/uploads/2016/10/40-Amazing-Poodle-Dog-Puppy-Pictures-5.jpg" />
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/51/f1/b8/51f1b89cafa310d79e92e49635df9e70.jpg" />
+    <img src="http://cdn.akc.org/akcdoglovers/Samoyed_hero1.jpg" />
+    <img src="http://pbs.twimg.com/media/CXq-o2FWYAAQ05g.jpg:large" />
+    <img src="http://whitemagicsamoyeds.com/images/slides/14_Alexia_and_Her_Litter_Mates-2.jpg" />
+    <img src="http://mcmagicsamoyeds.com/wp/wp-content/uploads/2012/03/405218_2767270455330_1694398200_n.jpg" />
+    <footer>Author: Tina</footer>
+</body>
+
+</html>

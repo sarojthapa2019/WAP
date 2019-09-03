@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="utf-8" />
+    <script>
+        // called when page loads; sets up event handlers
+        function pageLoad() {
+            document.getElementById("ok").onclick = okayClick;
+        }
+
+        function okayClick() {
+            alert("booyah");
+        }
+        window.onload = pageLoad;  // global code
+    </script>
+</head>
+
+<body>
+    <button id="ok">OK</button>
+</body>
+
+</html>

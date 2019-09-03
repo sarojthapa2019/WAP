@@ -1,0 +1,12 @@
+.highlighted{
+    color: red;
+}
+
+.warning {
+    background-color: yellow;
+}
+
+.breaking{
+    background-color: pink;
+    
+}

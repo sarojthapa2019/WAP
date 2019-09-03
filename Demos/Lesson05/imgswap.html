@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="utf-8" />
+    <script>
+        function swapImage() {
+           
+            var imgDom = document.getElementById("myimg");
+            var currentImgURL = imgDom.src;
+
+            var isHappyImage = currentImgURL.indexOf("happy");
+        
+            if(isHappyImage > -1){
+                imgDom.src = "sad.jpg";
+            }else{
+                imgDom.src = "happy.jpg";
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <img id="myimg" src="happy.jpg" alt="Happy" width="100px" height="100px" />
+    <button onclick="swapImage();">SWAP</button>
+</body>
+
+</html>
