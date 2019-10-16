@@ -1,0 +1,24 @@
+#a,#b{
+
+		padding: 10px;
+		width: 100px;
+		height: 100px;
+	text-align: center;
+}
+#a{
+	background-color: #8888ff;
+	float: left;
+
+}
+#b{
+	background-color: #ff8888;
+	float: right;
+	clear:left;
+
+}
+#c{
+	padding: 5px;
+	clear: left;
+	text-align: right;
+
+}

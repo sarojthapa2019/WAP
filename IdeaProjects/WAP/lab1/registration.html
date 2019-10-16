@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h2>Workshop Registration</h2>
+    </div>
+    <form action="" method="post" >
+        <div>
+<div class="left">
+    <h3>Register now while the seats are available</h3>
+
+<div class="info">
+    <div class="space">
+        <label for="firstName">First Name *</label>
+        <input type="text" name="firstName" id="firstName" required>
+    </div>
+    <div class="space">
+        <label for="lastName">Last Name *</label>
+        <input type="text" name="lastName" id="lastName" required>
+    </div >
+    <div class="space">
+        <label for="company">Company/Institution *</label>
+        <input type="text" name="company" id="company" required>
+    </div>
+    <div class="space ">
+        <label for="address">Address *</label>
+        <textarea type="text" class="address" name="address" id="address" required></textarea>
+    </div>
+    <div class="space">
+        <label for="city">City *</label>
+        <input type="text" name="city" id="city" required>
+    </div>
+    <div class="space">
+        <label for="state">State/Province/Region *</label>
+        <select name="selectState" id="state" >
+            <option name="">-Select-</option>
+            <option name="iowa" value="iowa">Iowa</option>
+            <option name="nebraska" value="nebraska">Nebraska</option>
+            <option name="newyork" value="newyork">New York</option>
+        </select>
+    </div>
+
+    <div class="space">
+        <label for="country">Country *</label>
+        <select name="selectCountry" id="country" >
+            <option name="">-Select-</option>
+            <option name="us" value="us">US</option>
+            <option name="uk" value="uk">UK</option>
+            <option name="nepal" value="nepal">Nepal</option>
+        </select>
+    </div>
+    <div class="space">
+        <label for="email">Email *</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div class="space">
+        <label for="phone">Phone Number *</label>
+        <input type="number" name="phone" id="phone" required>
+    </div>
+
+</div>
+</div>
+<div class="right">
+<div>
+    <h3>Lunch</h3>
+    <div>
+        <div class="space">
+            <label id="mealPreferfence" for="meal">Meal Preference </label>
+            <select name="selectMeal" id="meal" >
+                <option name="">-Select-</option>
+                <option name="vegetarian" selected value="vegetarian">Vegetarian</option>
+                <option name="non" value="non">Non-Vegetarian</option>
+                <option name="chinese" value="chinese">Chinese</option>
+            </select>
+        </div>
+    </div>
+</div>
+    <div class="space">
+        <div class="space">
+        <h3>Payment Details</h3>
+        <div >
+
+            <div class="payLabel">
+            <lable >Payment Mode <br>
+           </lable>
+            </div>
+            <div class="pay" >
+            <input class="check" type="checkbox" name="cash" value="cash" id="cash" >
+                <label for="cash">Cash</label> <br>
+            <input class="check" type="checkbox" name="cheque" value="cheque" title="cheque">Cheque<br>
+            <input class="check" type="checkbox" name="demandDraft" value="demandDraft" title="Demand Draft">Demand Draft<br>
+            </div>
+        </div>
+        </div>
+        <div class="space">
+            <label for="chequeno">DD/Cheque No.</label>
+            <input type="text" name="chequeno" id="chequeno" >
+        </div>
+        <div class="space">
+            <label for="bank">Drawn On (Bank Name)</label>
+            <input type="text" name="bank" id="bank" >
+        </div>
+        <div class="space">
+            <label for="payable">Payable</label>
+            <input type="text" name="payable" id="payable" >
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+        <div class="footer">
+            <div>
+
+            <input  type="submit" name="Submit">
+            <input  type="reset" name="Reset">
+            </div>
+        </div>
+</form>
+</div>
+
+
+</body>
+</html>

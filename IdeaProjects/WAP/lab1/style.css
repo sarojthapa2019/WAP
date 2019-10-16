@@ -1,0 +1,86 @@
+
+body {
+    margin: 1vw;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+    background-color: lightcyan;
+}
+body{
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+h3{
+    text-decoration: underline;
+}
+.header{
+
+    margin: 0px;
+    background-color: blanchedalmond ;
+    height: 10vh;
+}
+
+.info{
+    display: inline-block;
+
+    margin-left: 1vw;
+}
+
+.space{
+    margin-bottom: 6%;
+}
+
+.address{
+   height: 100px;
+}
+
+.left{
+    width: 50%;
+    display: inline;
+
+}
+.right{
+    width: 50%;
+    display: inline;
+    float: right;
+}
+.footer{
+    text-align: center;
+    background-color: aliceblue;
+    height: 10vh;
+}
+.inline{
+    display: inline;
+}
+
+input, select, textarea{
+    width:195px;
+
+
+}
+.check{
+    margin-left: 190px;
+    width: 40px;
+
+}
+label{
+    display: inline-block;
+    width: 15vw;
+}
+
+.payLabel{
+    display: inline;
+    width: 50%;
+
+}
+.pay{
+    width: 20%;
+    display: inline;
+    clear: left;
+
+
+}
+.pay input{
+
+}
+

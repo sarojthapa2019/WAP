@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="ticketbookingform.js" type="application/javascript"></script>
+</head>
+<body>
+    <div>
+        <form id="ticketbook" method="get" action="www.google.com/search">
+            <div id="error"></div>
+            <div>
+                <label>Name <input type="text" id="name" name="name" ></label><br><br>
+                <label>Street <input type="text" id="street" name="street" ></label><br><br>
+                <label>State <select id="select" name="state" >
+                    <option value="">-Select-</option>
+                    <option value="iowa">Iowa</option>
+                    <option value="texas">Texas</option>
+                    <option value="newyork">New York</option>
+                </select>
+                </label><br><br>
+                <label>Zip Code <input type="number" pattern="[0-9]+{5}" id="zip" name="zip" ></label><br><br>
+                <label>How many seats? <input type="number" id="seat" name="seat"></label><br><br>
+                <fieldset>
+                    <legend>Which taxi do you require?</legend>
+                    <input type="radio" name="taxi" value="car">Car <br>
+                    <input type="radio" name="taxi" value="van">Van <br>
+                    <input type="radio" name="taxi" value="tuktuk">Tuk Tuk <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Extras</legend>
+                    <input type="checkbox"  name="extras" value="babyseat">Baby Seat <br>
+                    <input type="checkbox" name="extras" value="wheelchair">Wheelchair Access <br>
+                    <input type="checkbox" name="extras" value="stocktip">Stock Tip <br>
+                </fieldset>
+                <label>Special Instructions <textarea id="text-area" name="tex"></textarea></label><br>
+                <input type="submit" value="submit">
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+</html>

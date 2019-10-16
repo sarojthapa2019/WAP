@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cookiesession:war exploded">
+    <output-path>$PROJECT_DIR$/target/cookiesession</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>cookiesession</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cookiesession" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/cookiesession/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cookiesession/web/Web" />
+    </root>
+  </artifact>
+</component>
